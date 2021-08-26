@@ -164,13 +164,4 @@ grid()
 m_ln$setXmin(m_pl$getXmin())
 est = estimate_pars(m_ln)
 m_ln$setPars(est)
-comp = compare_distributions(m_pl, m_ln) 5712
-
-
-
-
-
-
-
-
-
+comp = compare_distributions(m_pl, m_ln) 
